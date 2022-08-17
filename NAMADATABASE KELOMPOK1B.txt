@@ -1,0 +1,10 @@
+nama database 'tubespwl'
+
+php artisan migrate --seed
+
+*storagenya harus di link ulang:
+1. di PWLTUBES tambahin cd public di terminal
+2. rm storage
+3. cd..
+4. php artisan storage:link
+......
